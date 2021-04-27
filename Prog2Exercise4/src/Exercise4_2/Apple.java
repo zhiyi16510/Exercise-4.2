@@ -41,7 +41,7 @@ public class Apple extends Fruits {
 		return quantity*price;
 	}
 	
-	public String toString() {
+	public String toString() { //overriding method
 		return super.toString() + "\nPrice\t\t\t: RM" +price+ "\nQuantity\t\t: RM" +quantity+ "\nTotal price\t\t: RM" +totalPrice();
 	}
 }
